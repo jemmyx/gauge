@@ -1,0 +1,27 @@
+{
+  "name": "gauge",
+  "homepage": "https://github.com/jemmyx/gauge",
+  "authors": [
+    "jemmyx <meyer_fabio@hotmail.com>"
+  ],
+  "description": "A simple time-based gauge implementation.",
+  "main": "index.php",
+  "keywords": [
+    "gauge",
+    "timer",
+    "progress",
+    "bar"
+  ],
+  "license": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}
