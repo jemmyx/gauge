@@ -19,11 +19,18 @@ $timer = (object)array(
 	<meta name="author" content="Fabio Meyer">
 </head>
 <body>
-	<div id="bloc-progressbar">
-		<span id="countdown"></span>
-		<div id="progressbar"></div>
+	<div class="container">
+		<h1>Simple time-based gauge implementation</h1>
+		<p>@fabio meyer</p>
+		<div id="bloc-progressbar">
+			<span id="countdown"></span>
+			<div id="progressbar"></div>
+		</div>
 	</div>
+	<script src="public/components/tether/dist/js/tether.min.js"></script>
 	<script type="text/javascript" src="public/components/jquery/dist/jquery.min.js"></script>
+	<link rel="stylesheet" href="public/components/bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
+	<script src="public/components/bootstrap/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="asset/js/script.js"></script>
 </body>
 </html>
