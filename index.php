@@ -13,8 +13,8 @@ $timer = (object)array(
 	<link rel="stylesheet" href="asset/css/styles.css">
 	<script>
 		var lang = 'en';
-		var expdate = '<?php print $timer->expdate;?>';
-		var startdate = '<?php print $timer->startdate;?>';
+		var objTimer = JSON.parse('<?php print addslashes(json_encode($timer));?>');
+		console.log(objTimer);
 	</script>
 	<meta name="author" content="Fabio Meyer">
 </head>

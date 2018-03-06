@@ -1,4 +1,4 @@
-		var end = new Date(expdate);
+		var end = new Date(objTimer.expdate);
 		var _second = 1000;
 		var _minute = _second * 60;
 		var _hour = _minute * 60;
@@ -7,7 +7,7 @@
 
 		$(document).ready(function(){
 
-			var now = new Date(startdate);
+			var now = new Date(objTimer.startdate);
 				initialDistance = end - now;
 			timer = setInterval(showRemaining, 1000);
 			setTimeout(function(){
