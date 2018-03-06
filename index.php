@@ -1,11 +1,8 @@
 <?php
 $timer = (object)array(
-	// 'startdate' => '03/05/2018 11:59:59 PM',
-	// 'expdate' => '03/30/2018 11:59:59 AM',
 	'startdate' => strftime('%m/01/%Y 11:59:59 PM'),
 	'expdate' => strftime('%m/%d/%Y 11:59:59 AM', strtotime('+2 weeks')),
 );
-// var_dump($timer);exit;
 ?>
 <!doctype html>
 <html lang="en">
