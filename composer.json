@@ -1,0 +1,17 @@
+{
+  "name": "jemmyx/gauge-lib",
+  "version": "1.0",
+  "type": "library",
+  "description": "Basic jauge",
+  "keywords": ["relevant","tags","go","here"],
+  "homepage": "https://fabiomeyer.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fabio Meyer",
+      "email": "fabio.meyer@gmail.com",
+      "homepage": "http://fabiomeyer.com",
+      "role": "Developer"
+    }
+  ],
+}
