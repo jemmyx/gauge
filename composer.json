@@ -6,6 +6,9 @@
   "keywords": ["relevant","tags","go","here"],
   "homepage": "https://fabiomeyer.com",
   "license": "MIT",
+  "require": {
+    "php" : ">=5.5.0"
+  },
   "authors": [
     {
       "name": "Fabio Meyer",
@@ -13,5 +16,5 @@
       "homepage": "http://fabiomeyer.com",
       "role": "Developer"
     }
-  ],
+  ]
 }
